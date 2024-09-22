@@ -1,0 +1,17 @@
+[package]
+name = "vim_terminal"
+version = "0.1.0"
+authors = ["Saksham Tomer <sakshamtomerdevs@gmail.com>"]
+description = "A terminal file explorer with vim bindings written in rust"
+license = "Apache-2.0"
+repository = "https://github.com/saksham-tomer/vim_terminal"
+readme = "README.md"
+keywords = ["terminal", "file", "explorer"]
+categories = ["command-line-utilities"]
+
+[package.metadata.authors]
+Saksham = {name = "Saksham Tomer", email = "sakshamtomerdevs@gmail.com"}
+
+[dependencies]
+tui = "0.19"
+crossterm = "0.28.1"
